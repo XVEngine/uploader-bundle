@@ -1,0 +1,21 @@
+{
+    "name": "xvengine/uploader-bundle",
+    "description": "Uploader Bundle",
+	"type" : "xvengine-bundle",
+    "authors": [
+        {
+            "name": "Krzysztof Bednarczyk",
+            "email": "admin@bordeux.net",
+            "homepage": "http://bednarczyk.me"
+        }
+    ],
+    "require": {
+		"xvengine/core": "1.*"
+	},
+    "autoload": {
+        "psr-0": {
+            "XVEngine\\Bundle\\UploaderBundle" : ""
+        }
+    },
+	"target-dir": "XVEngine/Bundle/UploaderBundle"
+}
